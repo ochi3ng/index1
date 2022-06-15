@@ -10,10 +10,10 @@ background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(backgrou
     background-size: cover;
     background-position: center;
 }
-.banner{
-    width: 85%;
+.navbar{
+    width: 100%;
     margin: auto;
-    padding: 35px 0;
+    padding: 2px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -22,25 +22,28 @@ background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(backgrou
     width: 120px;
     cursor: pointer;
 }
-.banner ul li{
+.navbar ul li{
     list-style: none;
     display: inline-block;
     margin: 0 20px;
- 
+    position: relative;
 }
-
-.banner ul li {
+.navbar ul li a{
     text-decoration: none;
     color: white;
     text-transform: uppercase;
+
 }
-.banner ul li ::after{
+.navbar ul li::after{
     content: "";
     height: 3px;
     width: 100%;
-    background: navy;
+    background: #009688;
     position: absolute;
     left: 0;
     bottom: -10px;
 }
+
+
+
    
