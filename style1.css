@@ -64,7 +64,7 @@ background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(backgrou
     font-weight: 100;
     line-height: 25px;
 }
-.button{
+button{
     width: 200px;
     padding: 15px 0;
     text-align: center;
@@ -75,6 +75,25 @@ background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(backgrou
     background: transparent;
     color: white;
     cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #009688;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 00.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
 }
 
 
