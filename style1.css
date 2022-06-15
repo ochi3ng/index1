@@ -10,4 +10,37 @@ background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(backgrou
     background-size: cover;
     background-position: center;
 }
+.banner{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.banner ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+ 
+}
+
+.banner ul li {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.banner ul li ::after{
+    content: "";
+    height: 3px;
+    width: 100%;
+    background: navy;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+}
    
