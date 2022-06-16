@@ -96,6 +96,32 @@ button:hover span{
 button:hover{
     border: none;
 }
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to right,#00093C,#2d00);
+    color: #fff;
+    padding: 100px o 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between; 
+}
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+.logo2{
+    width: 80px;
+    margin-bottom: 30px;
+}
 
 
 
