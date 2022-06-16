@@ -120,7 +120,25 @@ footer{
 }
 .logo2{
     width: 80px;
-    margin-bottom: 30px;
+    margin-bottom: 3px;
+}
+.col h3{
+width: fit-content;
+margin-bottom: 4px;
+position: relative;
+}
+.email{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 2px;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 2px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
 }
 
 
